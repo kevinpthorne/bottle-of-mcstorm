@@ -1,0 +1,17 @@
+ permissions:
+    BanXP.*:
+        description: Gives access to all BanXP actions
+        children:
+            BanXP.s.*: true
+            BanXP.c.*: true
+    BanXP.s.*:
+        description: Gives access to all BanXP Actions in Survival Mode
+        default: op
+    BanXP.c.*:
+        description: Gives access to all BanXP Actions in Creative Mode
+        default: op
+        
+        
+        
+if player.hasPermission("BanXP.c.throw")
+do crap

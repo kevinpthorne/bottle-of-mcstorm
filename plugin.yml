@@ -1,0 +1,114 @@
+name: Bottle-O-McStorm
+main: me.lordaragos.BottleoMcstorm.Main
+version: 0.3
+description: >
+             Taking the old classic server software, McStorm, commands and incorporating them into a Bukkit Plugin
+commands:
+  BOM-cmds:
+    description: Shows all Bottle-O-McStorm commands (gives link).
+  impersonate:
+    description: Impersonates a player.
+  smite:
+    description: This wasn't a command in McStorm, but it's fun to play with!
+  moderate:
+    description: Chat moderation - handy.
+  server:
+    description: Server Tool - handy.
+  whois:
+    description: Player Info.
+  xban:
+    descriptions: Bans, IP-Bans, and kicks a player.
+  freeze:
+    description: freeze a play into their position, handy griefer handler.
+  crashserver:
+    description: crashes the server.
+  possess:
+    description: Possesses a specified player. Mwahahahaha.
+  hide:
+    description: Makes yourself invisible to other players.
+  unhide:
+    description: Makes yourself visible to other players.
+  voice:
+    description: Voices a player while chat moderation is on.
+  mute:
+    description: Mutes a player.
+  warn:
+    description: Warns a player.
+  patrol:
+    description: Teleports command-invoker to random Non-Op.
+  emote:
+    description: Toggles chat emotes.
+  slap:
+    description: Slaps a player into the air!
+  fakerank:
+    description: Fake ranks a player.
+  invincible:
+    description: Self-explanatory...
+    alias: inv
+  opchat:
+    description: Op-Chat
+  title:
+    description: Gives or removes a Player's title.
+  color:
+    description: Sets a Player's name color.
+  setjail:
+    description: Sets the Jail position.
+  jail:
+    description: Jails a player.
+  follow:
+    description: Follows a player.
+  players:
+    description: Shows all online players.
+  team:
+    description: Chooses or removes a Player from a team. Red, Blue, Green, or Yellow.
+  accept:
+    description: Accept a vote.
+  deny:
+    description: Deny a vote.
+  summon:
+    description: Summons a Player to your location.
+  summonrequest:
+    description: Requests a summoning of a Player.
+  summonaccept:
+    description: Accepts a summon request.
+  summondeny:
+    description: Denies a summon request.
+  votemute:
+    description: Sets up a vote to mute a player.
+  voteban:
+    description: Sets up a vote to ban a player.
+  votekick:
+    description: Sets up a vote to kick a player.
+  votejail:
+    description: Sets up a vote to jail a player.
+  joker:
+    description: Sets a Player to Joker!
+  tp:
+    description: Teleports Invoker to specified Player.
+  tprequest:
+    description: Requests teleporting to a Player.
+  tpaccept:
+    description: Accepts a teleport request.
+  tpdeny:
+    description: Denies a teleport request.
+  kill:
+    description: Kills a specified player.
+  p2p:
+    description: Sends a player to another player.
+  news:
+    description: Shows server news.
+  rules:
+    description: Displays server rules.
+  oprules:
+    description: Displays server oprules.
+  tmessage_add:
+    description: Adds a timed message to the list. --Not implemented
+  tmessage_remove:
+    description: Removes a timed message from the list. --Not implemented
+  tmessage_enable:
+    description: Enables timed messages. --Not implemented
+  tmessage_disable:
+    description: Disables timed messages. --Not implemented
+  md:
+    description: debug-only cmd.
+    

@@ -1,0 +1,40 @@
+# Your configuration file for: Bottle-O-McStorm - by lordaragos
+# 
+# This will be where you set values to modify how the plugin works, editing is easy...
+# Just remove anything after the "[Word]: " to change the value!
+#
+Version: 0.3
+Jail_Location:
+    x: 0
+    y: 0
+    z: 0
+Custom_Messages:
+    Banning:
+        Kick_Reason: Your banned sucka!
+        Server_Msg: The Ban Hammer has spoken!
+    Inv_Msg: is being cheap and is immortal.
+    News: 
+      - New News System Setup!
+      - ----------------------
+      - Bottle-O-McStorm News
+      - System Up and running!
+    Rules:
+      - ---- Server Rules ----
+      -    1. Be Respectful   
+      -   2. Be Responsible
+      -     3. Be Ethical
+    opRules:
+      - -- Server opRules --
+      -   1. Be Respectful   
+      -   2. Be Responsible
+      -    3. Be Ethical
+    # &p is the in-game player's name
+    MOTD: Welcome to the Server, &p
+#
+Timed_Messages_Enabled: false
+Emotes: false
+Stable_Mode: true
+Debug: false
+Games:
+    Teams:
+        Change_Helmet: false

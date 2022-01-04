@@ -1,0 +1,9 @@
+
+^^ The Line Above is where you will put your timed messages to be displayed in-game.
+
+Each message is separated by a comma
+Each message also will be displayed every 5min.
+
+A sample looks like this:
+
+Welcome to the server!, Owned By: lordaragos!, Notify an Op if you need help.
