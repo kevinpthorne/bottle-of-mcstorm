@@ -1,9 +1,10 @@
 # [Bottle-O-McStorm](http://web.archive.org/web/20171123075421/https://dev.bukkit.org/projects/possessem)
 
 A [CraftBukkit](https://bukkit.org/) plugin developed in late 2012 for Minecraft Servers. 
-The project was an attempt to port many features from Minecraft Classic Servers like McStorm
+The project ported many features from Minecraft Classic Servers like McStorm
 and McForge into normal Minecraft.
 
+Plugin had 906 downloads
 
 Features that were implemented:
 - `/impersonate <player>` - Impersonate a player in chat
